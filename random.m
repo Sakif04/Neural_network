@@ -13,9 +13,8 @@ inputs= randn(2,1);
 %% FOward prop
 %h1_n1=weights_h1(1,:)*inputs
 for i=1:h1_neuron
-    h1_neurons_op(1,i)=layer_up(inputs,weights_h1(i,:))
+    h1_neurons_op(1,i)=generate_next_layer_neurons(inputs,weights_h1(i,:))
 end
-
 %neuron_output=sigm(h1_n1,0);
 
 

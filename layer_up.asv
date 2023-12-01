@@ -1,3 +1,0 @@
-function neuron_values = layer_up(prev_neuron,weight)
-    neuron_values = weights*prev_neuron;
-end
