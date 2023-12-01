@@ -1,0 +1,12 @@
+
+ar1=rand(1,5)
+ar2=rand(5,1)
+
+newArr=ar1*ar2
+%cost_Func=exp-pred
+
+
+%delta_op = output.*(1-output).*cost_op;
+
+
+%delta=weight_1*cost_op1+weight_2*cost_op2+

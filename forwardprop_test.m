@@ -1,0 +1,1 @@
+[h1_op,output_h2,output] = forwardprop(trainImages(:,1),weights_h1,weights_op)
